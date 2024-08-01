@@ -14,10 +14,10 @@
 
 Add-Type -AssemblyName System.Windows.Forms
 
-$cycles = 3
+$cycles = 3    #number of time the program will cycle before shutting
 
 $msgs = @(
-"Enter question here"
+"Enter question here"    #type 4 different questions you would like to have appear in yourealoser.exe
 "Enter question here"
 "Enter question here"
 "Enter question here"
